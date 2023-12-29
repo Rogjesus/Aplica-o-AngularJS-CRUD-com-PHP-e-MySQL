@@ -1,0 +1,44 @@
+Aplicação AngularJS CRUD com PHP e MySQL
+Este repositório contém um aplicativo CRUD (Criar, Ler, Atualizar, Excluir) simples construído usando AngularJS para front-end, PHP para scripts do lado do servidor e MySQL para armazenamento de dados. O aplicativo permite aos usuários realizar operações básicas em uma lista de indivíduos, como inserir novos registros, atualizar os existentes e excluir entradas.
+
+Pré-requisitos
+Antes de começar, certifique-se de ter o seguinte instalado:
+
+Bootstrap : estrutura CSS para estilo.
+AngularJS : framework JavaScript para construção de aplicações web dinâmicas.
+PHP : Linguagem de script do lado do servidor.
+MySQL : Sistema de gerenciamento de banco de dados relacional.
+Começando
+Clone o repositório:
+
+
+Copiar código
+git clone https://github.com/your-username/your-repository.git
+Configure seu ambiente de servidor com PHP e MySQL.
+
+Crie um banco de dados nomeado crud_appe importe o arquivo SQL fornecido ( database.sql) para criar a tabela necessária.
+
+Atualize os detalhes da conexão com o banco de dados nos arquivos insert.phpe display.php.
+
+Estrutura do aplicativo
+index.html : O arquivo HTML principal que contém a estrutura da aplicação.
+bootstrap.min.css : estilos de bootstrap para aprimorar a IU.
+angular.min.js : biblioteca AngularJS para construção de aplicativos web dinâmicos.
+insert.php : script PHP para inserção e atualização de dados no banco de dados MySQL.
+display.php : script PHP para buscar e exibir dados do banco de dados MySQL.
+delete.php : script PHP para exclusão de registros do banco de dados MySQL.
+Uso
+Abra o index.htmlarquivo em um navegador da web ou implemente-o em um servidor da web.
+
+Insira as informações necessárias nos campos de entrada para inserir novos registros.
+
+Use o botão "Editar" para atualizar os registros existentes.
+
+Use o botão "Excluir" para remover registros do banco de dados.
+
+Contribuindo
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou obter solicitações para melhorar o aplicativo.
+
+Licença
+Este projeto está licenciado sob a Licença MIT .
+
